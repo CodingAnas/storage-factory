@@ -1,6 +1,7 @@
-# Remix compiler artifacts
-**/artifacts/
-**/artifacts/**
+# Compiler artifacts (Remix & Hardhat)
+artifacts/
+cache/
+out/
 
 # Remix plugin state folders
 deps/
@@ -10,6 +11,10 @@ states/
 *.dbg.json
 *.tsbuildinfo
 
-# Optional
+# Env files (API keys, secrets)
 .env
 .env.local
+
+# OS junk files
+.DS_Store
+Thumbs.db
